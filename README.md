@@ -34,8 +34,6 @@ Typical single-cycle results:
 6. [Configuration](#configuration)
 7. [Troubleshooting](#troubleshooting)
 8. [Project Structure](#project-structure)
-9. [For Research/Academic Use](#for-researchacademic-use)
-10. [Contributing](#contributing)
 
 ---
 
