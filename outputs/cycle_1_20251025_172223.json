@@ -1,0 +1,512 @@
+{
+  "cycle_number": 1,
+  "timestamp": "2025-10-25T17:20:43.022608",
+  "duration_seconds": 100.484719,
+  "resource_scenario": "normal",
+  "settlement_data": {
+    "total_zones": 10,
+    "total_population": 17441,
+    "zones_data": [
+      {
+        "zone_id": "Z01",
+        "zone_name": "Sector A",
+        "population": 1360,
+        "children_ratio": 0.34,
+        "elderly_ratio": 0.13,
+        "pregnant_women": 30,
+        "chronic_illness_cases": 94,
+        "food_shortage": 0.6,
+        "water_shortage": 0.42,
+        "medical_severity": 0.3,
+        "shelter_damage": 0.49,
+        "sanitation_need": 0.33,
+        "distance_from_depot": 14.7,
+        "road_condition": "poor",
+        "accessibility": "easy",
+        "security_level": "risk",
+        "last_aid_received_days": 1,
+        "previous_aid_satisfaction": 0.64,
+        "latitude": 32.6238,
+        "longitude": 42.1597
+      },
+      {
+        "zone_id": "Z02",
+        "zone_name": "Sector B",
+        "population": 974,
+        "children_ratio": 0.42,
+        "elderly_ratio": 0.06,
+        "pregnant_women": 37,
+        "chronic_illness_cases": 79,
+        "food_shortage": 0.54,
+        "water_shortage": 0.5,
+        "medical_severity": 0.75,
+        "shelter_damage": 0.22,
+        "sanitation_need": 0.56,
+        "distance_from_depot": 12.3,
+        "road_condition": "good",
+        "accessibility": "moderate",
+        "security_level": "safe",
+        "last_aid_received_days": 7,
+        "previous_aid_satisfaction": 0.51,
+        "latitude": 34.711,
+        "longitude": 42.8164
+      },
+      {
+        "zone_id": "Z03",
+        "zone_name": "Sector C",
+        "population": 2541,
+        "children_ratio": 0.36,
+        "elderly_ratio": 0.06,
+        "pregnant_women": 29,
+        "chronic_illness_cases": 79,
+        "food_shortage": 0.38,
+        "water_shortage": 0.52,
+        "medical_severity": 0.22,
+        "shelter_damage": 0.65,
+        "sanitation_need": 0.43,
+        "distance_from_depot": 13.6,
+        "road_condition": "fair",
+        "accessibility": "moderate",
+        "security_level": "safe",
+        "last_aid_received_days": 22,
+        "previous_aid_satisfaction": 0.51,
+        "latitude": 34.2114,
+        "longitude": 42.2488
+      },
+      {
+        "zone_id": "Z04",
+        "zone_name": "Sector D",
+        "population": 701,
+        "children_ratio": 0.48,
+        "elderly_ratio": 0.11,
+        "pregnant_women": 24,
+        "chronic_illness_cases": 91,
+        "food_shortage": 0.67,
+        "water_shortage": 0.54,
+        "medical_severity": 0.87,
+        "shelter_damage": 0.61,
+        "sanitation_need": 0.67,
+        "distance_from_depot": 11.3,
+        "road_condition": "fair",
+        "accessibility": "difficult",
+        "security_level": "caution",
+        "last_aid_received_days": 13,
+        "previous_aid_satisfaction": 0.56,
+        "latitude": 34.011,
+        "longitude": 40.3728
+      },
+      {
+        "zone_id": "Z05",
+        "zone_name": "Sector E",
+        "population": 1867,
+        "children_ratio": 0.38,
+        "elderly_ratio": 0.08,
+        "pregnant_women": 20,
+        "chronic_illness_cases": 27,
+        "food_shortage": 0.77,
+        "water_shortage": 0.7,
+        "medical_severity": 0.25,
+        "shelter_damage": 0.32,
+        "sanitation_need": 0.36,
+        "distance_from_depot": 17.4,
+        "road_condition": "fair",
+        "accessibility": "easy",
+        "security_level": "safe",
+        "last_aid_received_days": 23,
+        "previous_aid_satisfaction": 0.8,
+        "latitude": 33.3296,
+        "longitude": 42.9565
+      },
+      {
+        "zone_id": "Z06",
+        "zone_name": "Sector F",
+        "population": 2070,
+        "children_ratio": 0.39,
+        "elderly_ratio": 0.06,
+        "pregnant_women": 23,
+        "chronic_illness_cases": 22,
+        "food_shortage": 0.79,
+        "water_shortage": 0.56,
+        "medical_severity": 0.74,
+        "shelter_damage": 0.4,
+        "sanitation_need": 0.56,
+        "distance_from_depot": 9.1,
+        "road_condition": "good",
+        "accessibility": "easy",
+        "security_level": "safe",
+        "last_aid_received_days": 7,
+        "previous_aid_satisfaction": 0.71,
+        "latitude": 32.8164,
+        "longitude": 43.4776
+      },
+      {
+        "zone_id": "Z07",
+        "zone_name": "Sector G",
+        "population": 2778,
+        "children_ratio": 0.38,
+        "elderly_ratio": 0.13,
+        "pregnant_women": 45,
+        "chronic_illness_cases": 32,
+        "food_shortage": 0.35,
+        "water_shortage": 0.39,
+        "medical_severity": 0.31,
+        "shelter_damage": 0.66,
+        "sanitation_need": 0.7,
+        "distance_from_depot": 13.0,
+        "road_condition": "poor",
+        "accessibility": "difficult",
+        "security_level": "safe",
+        "last_aid_received_days": 11,
+        "previous_aid_satisfaction": 0.65,
+        "latitude": 30.6104,
+        "longitude": 41.7815
+      },
+      {
+        "zone_id": "Z08",
+        "zone_name": "Sector H",
+        "population": 2737,
+        "children_ratio": 0.32,
+        "elderly_ratio": 0.07,
+        "pregnant_women": 22,
+        "chronic_illness_cases": 22,
+        "food_shortage": 0.3,
+        "water_shortage": 0.53,
+        "medical_severity": 0.49,
+        "shelter_damage": 0.23,
+        "sanitation_need": 0.36,
+        "distance_from_depot": 7.4,
+        "road_condition": "poor",
+        "accessibility": "easy",
+        "security_level": "safe",
+        "last_aid_received_days": 9,
+        "previous_aid_satisfaction": 0.68,
+        "latitude": 30.3245,
+        "longitude": 41.2696
+      },
+      {
+        "zone_id": "Z09",
+        "zone_name": "Sector I",
+        "population": 1791,
+        "children_ratio": 0.35,
+        "elderly_ratio": 0.1,
+        "pregnant_women": 46,
+        "chronic_illness_cases": 75,
+        "food_shortage": 0.32,
+        "water_shortage": 0.6,
+        "medical_severity": 0.55,
+        "shelter_damage": 0.13,
+        "sanitation_need": 0.44,
+        "distance_from_depot": 18.3,
+        "road_condition": "good",
+        "accessibility": "easy",
+        "security_level": "safe",
+        "last_aid_received_days": 6,
+        "previous_aid_satisfaction": 0.61,
+        "latitude": 33.3607,
+        "longitude": 43.8081
+      },
+      {
+        "zone_id": "Z10",
+        "zone_name": "Sector J",
+        "population": 622,
+        "children_ratio": 0.35,
+        "elderly_ratio": 0.13,
+        "pregnant_women": 14,
+        "chronic_illness_cases": 89,
+        "food_shortage": 0.56,
+        "water_shortage": 0.73,
+        "medical_severity": 0.76,
+        "shelter_damage": 0.19,
+        "sanitation_need": 0.55,
+        "distance_from_depot": 14.2,
+        "road_condition": "poor",
+        "accessibility": "easy",
+        "security_level": "safe",
+        "last_aid_received_days": 26,
+        "previous_aid_satisfaction": 0.73,
+        "latitude": 31.1325,
+        "longitude": 43.2259
+      }
+    ]
+  },
+  "available_resources": {
+    "food_packages": 6843,
+    "water_liters": 18680,
+    "medical_kits": 750,
+    "shelter_materials": 437,
+    "blankets": 1871,
+    "hygiene_kits": 1140,
+    "vehicles_available": 7,
+    "personnel_available": 47,
+    "budget_usd": 123656
+  },
+  "needs_assessment": {
+    "prioritized_zones": [
+      {
+        "priority_score": 93,
+        "critical_needs": [
+          "food_shortage",
+          "water_shortage",
+          "medical_severity"
+        ],
+        "vulnerability_score": 22,
+        "shortage_score": 38,
+        "time_score": 18,
+        "reasoning": "Sector I has a high number of vulnerable populations (children, elderly, pregnant women) and critical shortages of food, water, and medical services. The time since the last aid received is relatively short, but the severity of these shortages justifies a higher priority score.",
+        "zone_id": "Z09",
+        "zone_name": "Sector I"
+      },
+      {
+        "priority_score": 86,
+        "critical_needs": [
+          "chronic_illness_cases",
+          "sanitation_need"
+        ],
+        "vulnerability_score": 21,
+        "shortage_score": 33,
+        "time_score": 15,
+        "reasoning": "Sector B has a high number of vulnerable populations (children, elderly, pregnant women), with a critical shortage of sanitation and medical services. The zone has not received aid in 7 days, contributing to its low time score. Food and water shortages are also significant concerns.",
+        "zone_id": "Z02",
+        "zone_name": "Sector B"
+      },
+      {
+        "priority_score": 85,
+        "critical_needs": [
+          "food_shortage",
+          "water_shortage",
+          "shelter_damage"
+        ],
+        "vulnerability_score": 15,
+        "shortage_score": 28,
+        "time_score": 10,
+        "reasoning": "High priority due to critical shortages of food, water, and shelter. The presence of vulnerable populations (pregnant women and chronic illness cases) also contributes to the overall urgency of the situation.",
+        "zone_id": "Z03",
+        "zone_name": "Sector C"
+      },
+      {
+        "priority_score": 84,
+        "critical_needs": [
+          "food_shortage",
+          "water_shortage"
+        ],
+        "vulnerability_score": 15,
+        "shortage_score": 31,
+        "time_score": 14,
+        "reasoning": "High priority score due to critical shortages of food and water, combined with a significant vulnerable population (pregnant women) and recent aid receipt. Population size and density support the high score.",
+        "zone_id": "Z08",
+        "zone_name": "Sector H"
+      },
+      {
+        "priority_score": 83,
+        "critical_needs": [
+          "food_shortage",
+          "water_shortage",
+          "chronic_illness_cases"
+        ],
+        "vulnerability_score": 18,
+        "shortage_score": 38,
+        "time_score": 14,
+        "reasoning": "Sector A has a significant shortage of food, water, and medical supplies. The presence of pregnant women and chronic illness cases increases the vulnerability of the population. Although aid was received recently, it did not alleviate the most pressing needs. The zone's poor road condition and risk level pose additional concerns.",
+        "zone_id": "Z01",
+        "zone_name": "Sector A"
+      },
+      {
+        "priority_score": 83,
+        "critical_needs": [
+          "food_shortage",
+          "water_shortage",
+          "medical_severity"
+        ],
+        "vulnerability_score": 20,
+        "shortage_score": 42,
+        "time_score": 14,
+        "reasoning": "High vulnerability score due to significant shortages of food, water, and medical services. The population size and density are moderate, but the chronic illness cases and pregnant women are particularly concerning. The shelter damage and sanitation need add to the overall urgency of the situation.",
+        "zone_id": "Z04",
+        "zone_name": "Sector D"
+      },
+      {
+        "priority_score": 82,
+        "critical_needs": [
+          "water_shortage",
+          "medical_severity"
+        ],
+        "vulnerability_score": 19,
+        "shortage_score": 38,
+        "time_score": 12,
+        "reasoning": "Zone has a high concentration of vulnerable populations (children, elderly) and critical shortages (water and medical). The time since last aid received is relatively recent, but the area's poor road condition and lack of shelter and sanitation facilities further compound the situation.",
+        "zone_id": "Z10",
+        "zone_name": "Sector J"
+      },
+      {
+        "priority_score": 77,
+        "critical_needs": [
+          "food_shortage",
+          "water_shortage"
+        ],
+        "vulnerability_score": 12,
+        "shortage_score": 29,
+        "time_score": 14,
+        "reasoning": "The zone has a high number of vulnerable populations, critical shortages of food and water, and has not received aid for several days. The shelter and sanitation conditions are also subpar.",
+        "zone_id": "Z06",
+        "zone_name": "Sector F"
+      },
+      {
+        "priority_score": 74,
+        "critical_needs": [
+          "food_shortage",
+          "water_shortage",
+          "shelter_damage"
+        ],
+        "vulnerability_score": 20,
+        "shortage_score": 43,
+        "time_score": 16,
+        "reasoning": "Sector G has a high shortage of food, water, and shelter due to chronic damage. The presence of pregnant women, children, and elderly individuals increases the vulnerability score. Although aid was received recently, the time since last aid is relatively short, but the severity of shortages warrants a high priority score.",
+        "zone_id": "Z07",
+        "zone_name": "Sector G"
+      },
+      {
+        "priority_score": 71,
+        "critical_needs": [
+          "food_shortage",
+          "water_shortage"
+        ],
+        "vulnerability_score": 17,
+        "shortage_score": 33,
+        "time_score": 12,
+        "reasoning": "The zone has a high number of vulnerable populations (children, elderly, pregnant women) and critical shortages in food and water. The time since last aid received is moderate, but the previous satisfaction was low. This combination suggests a medium to high priority level.",
+        "zone_id": "Z05",
+        "zone_name": "Sector E"
+      }
+    ],
+    "report": {
+      "total_zones_assessed": 10,
+      "critical_zones": 8,
+      "high_priority_zones": 2,
+      "average_priority_score": 81.8,
+      "most_common_needs": {
+        "water_shortage": 9,
+        "food_shortage": 8,
+        "medical_severity": 3,
+        "chronic_illness_cases": 2,
+        "shelter_damage": 2
+      },
+      "top_5_priority_zones": [
+        {
+          "zone_id": "Z09",
+          "zone_name": "Sector I",
+          "priority_score": 93
+        },
+        {
+          "zone_id": "Z02",
+          "zone_name": "Sector B",
+          "priority_score": 86
+        },
+        {
+          "zone_id": "Z03",
+          "zone_name": "Sector C",
+          "priority_score": 85
+        },
+        {
+          "zone_id": "Z08",
+          "zone_name": "Sector H",
+          "priority_score": 84
+        },
+        {
+          "zone_id": "Z01",
+          "zone_name": "Sector A",
+          "priority_score": 83
+        }
+      ]
+    }
+  },
+  "resource_allocation": {
+    "allocations": [
+      {
+        "zone_id": "Z01",
+        "zone_name": "Sector A",
+        "priority_score": 83,
+        "food_packages": 1123,
+        "water_liters": 2730,
+        "medical_kits": 45,
+        "shelter_materials": 20,
+        "blankets": 300,
+        "hygiene_kits": 150,
+        "justification": "High vulnerability due to pregnant women and chronic illness cases"
+      },
+      {
+        "zone_id": "Z03",
+        "zone_name": "Sector C",
+        "priority_score": 85,
+        "food_packages": 983,
+        "water_liters": 2707,
+        "medical_kits": 30,
+        "shelter_materials": 25,
+        "blankets": 250,
+        "hygiene_kits": 125,
+        "justification": "Critical shortages of food, water, and shelter"
+      },
+      {
+        "zone_id": "Z08",
+        "zone_name": "Sector H",
+        "priority_score": 84,
+        "food_packages": 842,
+        "water_liters": 2593,
+        "medical_kits": 30,
+        "shelter_materials": 22,
+        "blankets": 220,
+        "hygiene_kits": 110,
+        "justification": "High vulnerability due to pregnant women"
+      },
+      {
+        "zone_id": "Z04",
+        "zone_name": "Sector D",
+        "priority_score": 83,
+        "food_packages": 942,
+        "water_liters": 2730,
+        "medical_kits": 40,
+        "shelter_materials": 25,
+        "blankets": 250,
+        "hygiene_kits": 130,
+        "justification": "Critical shortages of food, water, and medical services"
+      },
+      {
+        "zone_id": "Z02",
+        "zone_name": "Sector B",
+        "priority_score": 86,
+        "food_packages": 983,
+        "water_liters": 2593,
+        "medical_kits": 35,
+        "shelter_materials": 22,
+        "blankets": 250,
+        "hygiene_kits": 115,
+        "justification": "High vulnerability due to pregnant women and chronic illness cases"
+      },
+      {
+        "zone_id": "Z09",
+        "zone_name": "Sector I",
+        "priority_score": 93,
+        "food_packages": 1123,
+        "water_liters": 2730,
+        "medical_kits": 45,
+        "shelter_materials": 25,
+        "blankets": 300,
+        "hygiene_kits": 150,
+        "justification": "Highest priority zone due to critical shortages and high vulnerability"
+      },
+      {
+        "zone_id": "Z10",
+        "zone_name": "Sector J",
+        "priority_score": 82,
+        "food_packages": 842,
+        "water_liters": 2593,
+        "medical_kits": 30,
+        "shelter_materials": 22,
+        "blankets": 220,
+        "hygiene_kits": 110,
+        "justification": "High vulnerability due to children and elderly"
+      }
+    ],
+    "coverage": {
+      "zones_served": 7,
+      "total_zones": 10,
+      "population_served": 
